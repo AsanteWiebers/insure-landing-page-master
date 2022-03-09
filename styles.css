@@ -1,0 +1,49 @@
+/* custom properties */
+
+:root {
+
+    --primary-dark-violet: 256 26% 20%;
+    --primary-grayish-blue:  216 30% 68%;
+
+    --neutral-very-dark-violet: 270 9% 17%;
+    --neutral-dark-grayish-violet: 273 4% 51%;
+    --neutral-very-light-gray: 0 0% 98%;
+
+    --serif-heading: 'DM Serif Display', serif;
+    --serif-body: 'Karla', sans-serif;
+}
+
+
+.text-violet {
+    color: hsl(var(--primary-dark-violet))
+}
+
+.text-grayish-blue {
+    color: hsl(var(--primary-grayish-blue));
+}
+
+.text-dark-violet {
+    color: hsl(var(--neutral-very-dark-violet));
+}
+
+.text-grayish-violet {
+    color: hsl(var(--neutral-dark-grayish-violet));
+}
+
+.text-light-gray {
+    color: hsl(var(--neutral-very-light-gray));
+}
+
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
