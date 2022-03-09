@@ -11,9 +11,71 @@
 
     --serif-heading: 'DM Serif Display', serif;
     --serif-body: 'Karla', sans-serif;
+
+    --fs-900: 9.375rem; 
+    --fs-800: 6.25rem;
+    --fs-700: 3.5rem;
+    --fs-600: 2rem;
+    --fs-500: 1.75rem;
+    --fs-400: 1.125rem;
+    --fs-300: 1rem;
+    --fs-200: 0.875rem;
 }
 
+/* resets */
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/* ------ */
+
+/* base settings */
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+picture {
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+img,
+picture {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* ------- */
+
+body {
+    line-height: 1.3;
+}
+
+/* utility classes */
+
+.flex {
+    display: flex;
+    gap: var( --gap, 1rem);
+}
+
+/* -------- */
 .text-violet {
     color: hsl(var(--primary-dark-violet))
 }
@@ -33,8 +95,6 @@
 .text-light-gray {
     color: hsl(var(--neutral-very-light-gray));
 }
-
-
 
 .uppercase {
     text-transform: uppercase;
