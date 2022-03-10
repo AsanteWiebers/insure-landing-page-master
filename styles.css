@@ -16,7 +16,7 @@
     --fs-800: 6.25rem;
     --fs-700: 3.5rem;
     --fs-600: 2rem;
-    --fs-500: 1.75rem;
+    --fs-500: 1.8rem;
     --fs-400: 1.125rem;
     --fs-300: 1rem;
     --fs-200: 0.875rem;
@@ -29,6 +29,7 @@
 *::after {
     box-sizing: border-box;
     margin: 0;
+    
 }
 /* ------ */
 
@@ -66,7 +67,7 @@ select {
 /* ------- */
 
 body {
-    line-height: 1.3;
+    line-height: 1.6;
     font-family: var(--serif-body);
 }
 
@@ -78,16 +79,20 @@ body {
 }
 
 .container {
-    padding: 0 2em;
+    padding: 0 5em;
 }
 
 .wide-container {
-    padding: 0 1em;
+    padding: 0 2em;
 }
 
 /* -------- */
 
 /* fonts */
+
+.serif-heading {
+    font-family: var(--serif-heading);
+}
 
 .text-violet {
     color: hsl(var(--primary-dark-violet))
@@ -180,13 +185,51 @@ body {
     left: 15px ;
 }
 
+
 .hamburger-icon {
     position: absolute;
     top: 15px;
     right: 15px;
 }
+/* ------- */
+
+/* hero section */
+.bg-mobile-intro {
+    width: 100%;
+}
+
+.hero {
+    
+    text-align: center;
+}
+
+.hero_text {
+    background: hsl(var(--primary-dark-violet));
+    padding: 8em 0;
+    
+}
+
+.hero_heading {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hero_p {
+    margin: 1em 0 2em;
+}
+
+.text-box {
+    border: 1px solid hsl(var(--neutral-very-light-gray));
+    color: hsl(var(--neutral-very-light-gray));
+    padding: 1em 2em;
+    
+}
 
 
+.intro-pattern-left {
+    position: absolute;
+}
 
-
-
+.intro-pattern-right {
+    float: right;
+}
