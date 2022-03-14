@@ -163,11 +163,13 @@ body {
 /* navigation */
 
 /* hidden mobile nav */
+
 .top-nav  {
     display: none;
 }
 
 /* bigger screens hidden nav */
+
 .nav-list {
     display: none;
 }
@@ -185,28 +187,27 @@ body {
     left: 15px ;
 }
 
-
 .hamburger-icon {
     position: absolute;
     top: 15px;
     right: 15px;
 }
+
 /* ------- */
 
 /* hero section */
+
 .bg-mobile-intro {
     width: 100%;
 }
 
 .hero {
-    
     text-align: center;
 }
 
 .hero_text {
     background: hsl(var(--primary-dark-violet));
-    padding: 8em 0;
-    
+    padding: 8em 0;   
 }
 
 .hero_heading {
@@ -223,7 +224,7 @@ body {
     border: 1px solid hsl(var(--neutral-very-light-gray));
     color: hsl(var(--neutral-very-light-gray));
     padding: 1em 2em;
-    
+   
 }
 
 .intro-pattern-left {
@@ -254,4 +255,33 @@ body {
 
 .main_text {
     padding: 2em;
+}
+
+/* banner */
+
+.banner-box {
+    background-color: hsl(var(--primary-dark-violet));
+    height: 40vh;
+    margin: 7em auto;
+    width: 85%;
+}
+
+.banner-heading {
+   position: relative;
+   left: 2em;
+   text-align: center;
+   margin: 0 auto;
+   padding: 2em 0;
+   clear: left;
+   width: 90%;
+   
+}
+
+.banner-pattern {
+    float: right;
+}
+
+.cta {
+    margin: 0 auto;
+    text-align: center;
 }
